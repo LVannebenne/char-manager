@@ -36,6 +36,7 @@ Utils.newButton.addEventListener('click', function () {
         document.location.href = "/index";
     }
 });
+console.log(document.location);
 if (document.location.pathname == "/") {
     // affiche tous les personnages
     api_routes_1.getAllChar();
