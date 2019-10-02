@@ -8,5 +8,5 @@ command = "parcel build index.html"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/:route"
 
