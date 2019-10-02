@@ -26,8 +26,12 @@ Utils.newButton.addEventListener('click', () => {
         document.location.href = `/index`;
     }
 })
+console.log(document.location.pathname)
+console.log(document.location.href)
+console.log(document.location)
+getAllChar();
 
-if (document.location.pathname == "/index") {
+/* if (document.location.pathname == "/index") {
     // affiche tous les personnages
     getAllChar();
 } else if (document.location.pathname.startsWith("/viewChar")) {
@@ -65,4 +69,4 @@ if (document.location.pathname == "/index") {
     })
 } else {
     document.location.href = "/index";
-}
+} */
