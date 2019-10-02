@@ -32,14 +32,10 @@ Utils.newButton.addEventListener('click', function () {
         document.location.href = "/index";
     }
 });
-console.log(document.location.pathname);
-console.log(document.location.href);
-console.log(document.location);
-api_routes_1.getAllChar();
-/* if (document.location.pathname == "/index") {
+if (document.location.pathname == "/index") {
     // affiche tous les personnages
-    getAllChar();
-} else if (document.location.pathname.startsWith("/viewChar")) {
+    api_routes_1.getAllChar();
+} /*  else if (document.location.pathname.startsWith("/viewChar")) {
     // Affiche le personnage sur lequel on a cliqué
     getCharAndDisplay(document.location.search.substring(3));
 } else if (document.location.pathname.startsWith("/editChar")) {
@@ -72,6 +68,7 @@ api_routes_1.getAllChar();
         }
         reader.readAsDataURL(<Blob>file);
     })
-} else {
+}*/
+else {
     document.location.href = "/index";
-} */
+}
