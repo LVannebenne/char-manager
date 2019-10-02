@@ -30,9 +30,9 @@ Utils.newButton.addEventListener('click', () => {
 if (document.location.pathname == "/") {
     // affiche tous les personnages
    getAllChar();
-}/*  else if (document.location.pathname.startsWith("/viewChar")) {
+}  else if (document.location.pathname.startsWith("/viewChar")) {
     // Affiche le personnage sur lequel on a cliqué
-    getCharAndDisplay(document.location.search.substring(3));
+    getCharAndDisplay(document.location.search.substring(3));/*
 } else if (document.location.pathname.startsWith("/editChar")) {
     // Deploie le formulaire et le rempli
     Utils.formNewChar();

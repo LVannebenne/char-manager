@@ -1,5 +1,5 @@
 # testComment
-/index          /index
-/viewchar p=id  /viewchar/:id
-/editchar p=id  /editchar/:id
-/newchar        /newchar
+# /index          /index
+# /viewchar p=id  /viewchar/:id
+# /editchar p=id  /editchar/:id
+# /newchar        /newchar

@@ -35,9 +35,10 @@ Utils.newButton.addEventListener('click', function () {
 if (document.location.pathname == "/") {
     // affiche tous les personnages
     api_routes_1.getAllChar();
-} /*  else if (document.location.pathname.startsWith("/viewChar")) {
+}
+else if (document.location.pathname.startsWith("/viewChar")) {
     // Affiche le personnage sur lequel on a cliqué
-    getCharAndDisplay(document.location.search.substring(3));
+    api_routes_1.getCharAndDisplay(document.location.search.substring(3)); /*
 } else if (document.location.pathname.startsWith("/editChar")) {
     // Deploie le formulaire et le rempli
     Utils.formNewChar();
@@ -69,6 +70,7 @@ if (document.location.pathname == "/") {
         reader.readAsDataURL(<Blob>file);
     })
 }*/
-else {
-    document.location.href = "/";
+    {
+        document.location.href = "/";
+    }
 }
