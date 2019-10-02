@@ -27,7 +27,7 @@ Utils.newButton.addEventListener('click', () => {
     }
 })
 
-if (document.location.pathname == "/index") {
+if (document.location.pathname == "/") {
     // affiche tous les personnages
    getAllChar();
 }/*  else if (document.location.pathname.startsWith("/viewChar")) {
@@ -64,5 +64,5 @@ if (document.location.pathname == "/index") {
         reader.readAsDataURL(<Blob>file);
     })
 }*/ else {
-    document.location.href = "/index";
+    document.location.href = "/";
 } 

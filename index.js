@@ -32,7 +32,7 @@ Utils.newButton.addEventListener('click', function () {
         document.location.href = "/index";
     }
 });
-if (document.location.pathname == "/index") {
+if (document.location.pathname == "/") {
     // affiche tous les personnages
     api_routes_1.getAllChar();
 } /*  else if (document.location.pathname.startsWith("/viewChar")) {
@@ -70,5 +70,5 @@ if (document.location.pathname == "/index") {
     })
 }*/
 else {
-    document.location.href = "/index";
+    document.location.href = "/";
 }
