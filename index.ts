@@ -32,7 +32,7 @@ if (document.location.pathname == "/") {
    getAllChar();
 }  else if (document.location.pathname.startsWith("/viewChar")) {
     // Affiche le personnage sur lequel on a cliqué
-    getCharAndDisplay(document.location.search.substring(3));/*
+    getCharAndDisplay(document.location.search.substring(3));
 } else if (document.location.pathname.startsWith("/editChar")) {
     // Deploie le formulaire et le rempli
     Utils.formNewChar();
@@ -63,6 +63,6 @@ if (document.location.pathname == "/") {
         }
         reader.readAsDataURL(<Blob>file);
     })
-}*/ else {
+} else {
     document.location.href = "/";
 } 
