@@ -7,11 +7,12 @@ publish = "/dist/"
 command = "parcel build index.html"
 
 [[redirects]]
- from = "/viewchar"
- status = "200"
- force = true
+  from = "/viewchar"
+  to = "/viewchar"
+  status = "200"
+  force = true
 
 [[redirects]]
- from = "/*"
- to = "/index.html"
+  from = "/*"
+  to = "/index.html"
 
