@@ -27,7 +27,7 @@ Utils.newButton.addEventListener('click', () => {
     }
 })
 
-console.log(document.location);
+console.log(window.location.pathname);
 
 if (document.location.pathname == "/") {
     // affiche tous les personnages
